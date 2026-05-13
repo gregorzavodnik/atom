@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <rect width="400" height="500" fill="#d6d3d1"/>
+  <rect x="160" y="120" width="80" height="200" fill="#a8a29e" rx="4"/>
+  <rect x="130" y="180" width="140" height="140" fill="#a8a29e" rx="2"/>
+  <path d="M200 80 Q160 120 160 160 L240 160 Q240 120 200 80Z" fill="#a8a29e"/>
+  <ellipse cx="200" cy="80" rx="40" ry="20" fill="#9ca3af" opacity="0.5"/>
+  <ellipse cx="200" cy="70" rx="28" ry="14" fill="#9ca3af" opacity="0.4"/>
+  <text
+    x="200"
+    y="380"
+    font-family="system-ui, sans-serif"
+    font-size="15"
+    fill="#78716c"
+    text-anchor="middle"
+    dominant-baseline="middle"
+  >Kühlturm – Platzhalter</text>
+</svg>
