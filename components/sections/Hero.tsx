@@ -25,14 +25,15 @@ export default function Hero() {
 
             <div className="mt-6 space-y-4 max-w-prose text-stone-700 leading-relaxed">
                <p>
-                  Diese Webseite erklärt Ihnen, wie Atomenergie entsteht, wo Uran abgebaut
-                  wird, wofür es genutzt wird und welche Chancen und Risiken mit ihr
-                  verbunden sind.
+                  Diese Webseite erklärt Ihnen, wie Atomenergie entsteht, wo
+                  Uran abgebaut wird, wofür es genutzt wird und welche Chancen
+                  und Risiken mit ihr verbunden sind.
                </p>
                <p>
-                  Auch im Jahr 2026 erweist sich Atomenergie als eines der umstrittensten
-                  Themen der globalen Energiewende – CO₂-arm, aber mit ungelöster
-                  Endlagerfrage und geopolitischen Abhängigkeiten.
+                  Auch im Jahr 2026 erweist sich Atomenergie als eines der
+                  umstrittensten Themen der globalen Energiewende – CO₂-arm,
+                  aber mit ungelöster Endlagerfrage und geopolitischen
+                  Abhängigkeiten.
                </p>
             </div>
 
@@ -42,7 +43,7 @@ export default function Hero() {
                   size="lg"
                   className="bg-teal-800 hover:bg-teal-700 text-white border-transparent"
                >
-                  <Link href="#uran">Projekt starten</Link>
+                  <Link href="#entstehung">Projekt starten</Link>
                </Button>
                <Button asChild variant="outline" size="lg">
                   <Link href="/quellen">Quellenverzeichnis</Link>

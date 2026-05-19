@@ -1,0 +1,31 @@
+{
+   "sources": [
+      {
+         "id": "Q01",
+         "author": "Bundesanstalt für Geowissenschaften und Rohstoffe (BGR)",
+         "year": "2023",
+         "title": "Energiestudie 2023: Reserven, Ressourcen und Verfügbarkeit von Energierohstoffen",
+         "url": "https://www.bgr.bund.de/DE/Themen/Energie/energie_node.html",
+         "accessedAt": "2024-11-15",
+         "type": "report"
+      },
+      {
+         "id": "Q02",
+         "author": "Internationale Atomenergiebehörde (IAEA)",
+         "year": "2024",
+         "title": "Uranium 2024: Resources, Production and Demand (Red Book)",
+         "url": "https://www.iaea.org/publications/15711/uranium-2024",
+         "accessedAt": "2025-01-10",
+         "type": "report"
+      },
+      {
+         "id": "Q03",
+         "author": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)",
+         "year": "2023",
+         "title": "Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland",
+         "url": "https://www.erneuerbare-energien.de/EE/Navigation/DE/Service/Erneuerbare_Energien_in_Zahlen/Zeitreihen/zeitreihen.html",
+         "accessedAt": "2024-12-05",
+         "type": "data"
+      }
+   ]
+}

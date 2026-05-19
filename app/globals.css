@@ -123,9 +123,16 @@
       @apply border-border outline-ring/50;
    }
    body {
-      @apply bg-background text-foreground;
+      @apply bg-stone-50 text-stone-900;
    }
    html {
       @apply font-sans;
+      scroll-behavior: smooth;
+   }
+
+   h1,
+   h2,
+   h3 {
+      font-family: var(--font-serif);
    }
 }

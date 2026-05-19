@@ -1,11 +1,13 @@
 # Projekt: Atomenergie – Geographie-Projekt 11. Klasse
 
 ## Kontext
+
 Schulprojekt im Fach Geographie, Freies Christliches Gymnasium Düsseldorf.
 Dreierteam, Abgabe als gehostete Webseite. Überthema "Energie",
 Gruppenthema "Atom-/Nuklearenergie".
 
 ## Tech-Stack
+
 - Framework: Astro 4+ mit TypeScript (Static Site)
 - Styling: Tailwind CSS + shadcn-Style-Komponenten
 - Content: Markdown in /content/sections/
@@ -14,6 +16,7 @@ Gruppenthema "Atom-/Nuklearenergie".
 - Repo: Git, main-Branch
 
 ## Inhaltliche Pflichtsektionen
+
 1. Was ist Uran? Entstehung
 2. Abbau und Vorkommen weltweit
 3. Nutzung (zivil, militärisch, medizinisch)
@@ -25,6 +28,7 @@ Gruppenthema "Atom-/Nuklearenergie".
 9. Glossar (Fachsprache)
 
 ## Verbindliche Regeln
+
 - Sprache der Webseite: Deutsch
 - Fachsprache durchgängig verwenden, jeden neuen Begriff erstmals im Text erklären
 - JEDE Zahl, JEDES Datum, JEDES Zitat braucht eine Fußnote mit Quellen-ID (Q01, Q02, ...)
@@ -34,6 +38,7 @@ Gruppenthema "Atom-/Nuklearenergie".
 - Zitierweise: Deutsche Zitierweise mit Fußnoten
 
 ## Arbeitsweise
+
 - Vor größeren Änderungen: Plan-Mode nutzen, Plan zeigen, auf Freigabe warten
 - Nach jedem abgeschlossenen Feature: git commit mit aussagekräftiger Message
 - Tests/Lints laufen lassen vor jedem Commit
