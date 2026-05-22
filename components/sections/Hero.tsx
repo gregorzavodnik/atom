@@ -54,8 +54,8 @@ export default function Hero() {
          {/* Bild – mobile: oben (order-1), Desktop: rechts (lg:order-2) */}
          <div className="order-1 lg:order-2 relative aspect-[4/5] w-full rounded-2xl overflow-hidden shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-700">
             <Image
-               src="/images/hero-placeholder.svg"
-               alt="Kühlturm eines Kernkraftwerks – Platzhalterbild"
+               src="/images/kraftwerk.jpg"
+               alt="Kühlturm eines Kernkraftwerks"
                fill
                sizes="(max-width: 1024px) 100vw, 50vw"
                className="object-cover"

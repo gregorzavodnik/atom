@@ -8,7 +8,7 @@ Gruppenthema "Atom-/Nuklearenergie".
 
 ## Tech-Stack
 
-- Framework: Astro 4+ mit TypeScript (Static Site)
+- Framework: NextJs mit TypeScript
 - Styling: Tailwind CSS + shadcn-Style-Komponenten
 - Content: Markdown in /content/sections/
 - Diagramme: Datawrapper-Embeds (iframe) und Chart.js für interaktive Grafiken

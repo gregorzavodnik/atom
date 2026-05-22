@@ -2,30 +2,39 @@
    "sources": [
       {
          "id": "Q01",
-         "author": "Bundesanstalt für Geowissenschaften und Rohstoffe (BGR)",
-         "year": "2023",
-         "title": "Energiestudie 2023: Reserven, Ressourcen und Verfügbarkeit von Energierohstoffen",
-         "url": "https://www.bgr.bund.de/DE/Themen/Energie/energie_node.html",
-         "accessedAt": "2024-11-15",
-         "type": "report"
+         "author": "ulleo",
+         "year": "2017",
+         "title": "Bild: Atomkraftwerk",
+         "url": "https://pixabay.com/de/photos/atomkraft-atomenergie-atomkraftwerk-2186689/",
+         "accessedAt": "22-05-2026",
+         "type": "image"
       },
       {
          "id": "Q02",
-         "author": "Internationale Atomenergiebehörde (IAEA)",
-         "year": "2024",
-         "title": "Uranium 2024: Resources, Production and Demand (Red Book)",
-         "url": "https://www.iaea.org/publications/15711/uranium-2024",
-         "accessedAt": "2025-01-10",
+         "author": "Scinexx",
+         "year": "2019",
+         "title": "Neutronenstern-Kollision als Elementfabrik",
+         "url": "https://www.scinexx.de/news/kosmos/neutronenstern-kollision-als-elementfabrik/",
+         "accessedAt": "20-05-2026",
          "type": "report"
       },
       {
          "id": "Q03",
-         "author": "Bundesministerium für Wirtschaft und Klimaschutz (BMWK)",
+         "author": "European Southern Observatory",
+         "year": "2019",
+         "title": "Erstmals schweres Element entstanden bei der Kollision von Neutronensternen eindeutig identifiziert",
+         "url": "https://www.eso.org/public/germany/news/eso1917/",
+         "accessedAt": "20-05-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q04",
+         "author": "Nucleopedia",
          "year": "2023",
-         "title": "Zeitreihen zur Entwicklung der erneuerbaren Energien in Deutschland",
-         "url": "https://www.erneuerbare-energien.de/EE/Navigation/DE/Service/Erneuerbare_Energien_in_Zahlen/Zeitreihen/zeitreihen.html",
-         "accessedAt": "2024-12-05",
-         "type": "data"
+         "title": "Uranbergbau",
+         "url": "https://de.nucleopedia.org/wiki/Uranbergbau",
+         "accessedAt": "20-05-2026",
+         "type": "report"
       }
    ]
 }

@@ -3,49 +3,81 @@ import Footnote from '@/components/content/Footnote'
 import GlossaryTerm from '@/components/content/GlossaryTerm'
 import Figure from '@/components/content/Figure'
 import ChartPlaceholder from '@/components/content/ChartPlaceholder'
+import Image from 'next/image'
 
 export default function Entstehung() {
    return (
       <SectionWrapper id="entstehung" kicker="Sektion 01 · Geologie">
-         <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-stone-900">
-            Wie entsteht Uran?
-         </h2>
-         <p className="mt-5 text-xl text-stone-600 leading-relaxed max-w-prose">
-            Uran ist ein natürlich vorkommendes Schwermetall, das vor Milliarden
-            Jahren in sterbenden Sternen entstand und heute tief in der
-            Erdkruste gefunden wird.
-         </p>
+         <div className="flex flex-col md:flex-row gap-10 items-start">
+            {/* Linke Spalte: Supernova-Bild */}
+            <div className="md:w-1/2 flex-shrink-0 md:sticky md:top-20 md:self-start">
+               <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                  <Image
+                     src="/images/supernova.png"
+                     alt="Supernova-Explosion: kosmischer Ursprung schwerer Elemente wie Uran"
+                     fill
+                     className="object-cover"
+                  />
+               </div>
+               <p className="mt-2 text-xs text-stone-500 italic">
+                  Supernova-Explosion – kosmischer Geburtsort schwerer Elemente
+               </p>
+            </div>
 
-         <div className="mt-8 space-y-5 text-stone-700 leading-relaxed max-w-prose">
-            <p>
-               [TODO: Beschreibung der nukleosynthetischen Entstehung von Uran
-               in Supernovaexplosionen und dessen Einlagerung in der frühen
-               Erdkruste vor ca. 4,5 Milliarden Jahren. Uran ist das schwerste
-               natürlich vorkommende Element mit der Ordnungszahl 92.]
-               <Footnote sourceId="Q01" />
-            </p>
-            <p>
-               Natürliches Uran besteht zu etwa 99,3 % aus dem Isotop U-238 und
-               zu nur ca. 0,7 % aus dem spaltbaren Isotop U-235, das für die
-               Kernspaltung in Reaktoren genutzt wird. Die{' '}
-               <GlossaryTerm term="Halbwertszeit" /> von U-238 beträgt rund 4,5
-               Milliarden Jahre – annähernd das Alter der Erde.
-               <Footnote sourceId="Q01" />
-            </p>
-            <p>
-               [TODO: Beschreibung der geologischen Vorkommen: Uran reichert
-               sich bevorzugt in Graniten, Pegmatiten und Sedimentgesteinen an.
-               Erläuterung der wichtigsten Lagerstättentypen (Unconformity-Typ,
-               Sandstein-Typ, Breccia-Typ) und deren wirtschaftliche Bedeutung.]
-            </p>
+            {/* Rechte Spalte: Text */}
+            <div className="md:w-1/2">
+               <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-stone-900">
+                  Wie entsteht Uran?
+               </h2>
+
+               <div className="mt-8 space-y-5 text-stone-700 leading-relaxed max-w-prose">
+                  <p>
+                     Uran gehört zu den schwersten natürlich vorkommenden
+                     Elementen im Universum. Es entstand nicht direkt beim
+                     Urknall, denn damals bildeten sich fast ausschließlich
+                     Wasserstoff und Helium. Erst viele Millionen Jahre später
+                     entstanden schwerere Elemente im Inneren von Sternen durch
+                     Kernfusion. Für Elemente schwerer als Eisen darunter Uran
+                     reicht die normale Fusion jedoch nicht mehr aus.
+                     Stattdessen müssen große Mengen freier Neutronen vorhanden
+                     sein, damit Atomkerne schnell Neutronen einfangen können.
+                     Diesen Vorgang nennt man „r-Prozess“ (rapid neutron
+                     capture).
+                     <Footnote sourceId="Q02" />
+                  </p>
+                  <p>
+                     Heute gehen Forschende davon aus, dass Uran vor allem bei
+                     extrem energiereichen kosmischen Ereignissen entsteht.
+                     Besonders wichtig sind dabei Kollisionen von
+                     Neutronensternen. Wenn zwei dieser extrem dichten
+                     Sternreste verschmelzen, werden enorme Mengen
+                     neutronenreicher Materie ins All geschleudert. Dort können
+                     innerhalb kürzester Zeit schwere Elemente wie Gold, Blei
+                     oder Uran entstehen. Beobachtungen der
+                     Neutronenstern-Kollision GW170817 lieferten erstmals
+                     direkte Hinweise darauf, dass solche Ereignisse tatsächlich
+                     als „Elementfabriken“ für schwere Atome dienen.
+                     Astronomische Messungen bestätigten dabei die Entstehung
+                     schwerer Elemente durch den r-Prozess.
+                     <Footnote sourceId="Q03" />
+                  </p>
+                  <p>
+                     Ein Teil des Urans könnte außerdem bei bestimmten
+                     Supernova-Explosionen massereicher Sterne gebildet worden
+                     sein. Während des Kollapses eines Sterns entstehen extreme
+                     Temperaturen und hohe Neutronendichten, die ebenfalls den
+                     r-Prozess ermöglichen können. Wissenschaftlich wird noch
+                     untersucht, welchen Anteil Supernovae und welchen Anteil
+                     Neutronenstern-Kollisionen an der gesamten Uranmenge im
+                     Universum haben. Sicher ist jedoch, dass das Uran auf der
+                     Erde aus Materie stammt, die lange vor der Entstehung
+                     unseres Sonnensystems bei solchen Sternexplosionen und
+                     Sternkollisionen erzeugt wurde.
+                     <Footnote sourceId="Q04" />
+                  </p>
+               </div>
+            </div>
          </div>
-
-         <Figure
-            caption="Zerfallsreihe des Uranisotops U-238 mit Zwischenprodukten bis zum stabilen Blei-206"
-            sourceId="Q01"
-         >
-            <ChartPlaceholder title="Zerfallsreihe U-238" />
-         </Figure>
       </SectionWrapper>
    )
 }
