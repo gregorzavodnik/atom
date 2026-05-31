@@ -45,7 +45,6 @@ export default function Header() {
    return (
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
          <div className="max-w-7xl mx-auto px-6 md:px-12 h-14 flex items-center justify-between gap-6">
-            {/* Logo */}
             <Link
                href="#hero"
                className="font-serif text-lg text-stone-900 hover:text-teal-800 transition-colors flex-shrink-0"
@@ -53,7 +52,6 @@ export default function Header() {
                Atomenergie
             </Link>
 
-            {/* Desktop Nav */}
             <nav className="hidden lg:flex items-center gap-1 overflow-x-auto">
                {navLinks.map((link) => (
                   <a
@@ -71,7 +69,6 @@ export default function Header() {
                ))}
             </nav>
 
-            {/* Rechts: Unterseiten + Hamburger */}
             <div className="flex items-center gap-3 flex-shrink-0">
                <Link
                   href="/quellen"

@@ -42,7 +42,6 @@ export default function SustainabilitySquare() {
                className="w-full h-full"
                aria-label="Viereck der Nachhaltigkeit"
             >
-               {/* Trennlinien */}
                <line
                   x1="200"
                   y1="0"
@@ -60,7 +59,6 @@ export default function SustainabilitySquare() {
                   strokeWidth="2"
                />
 
-               {/* Mittel-Label */}
                <text
                   x="200"
                   y="194"
@@ -86,7 +84,6 @@ export default function SustainabilitySquare() {
                         {q.label}
                      </text>
 
-                     {/* Punkte-Skala (5 Punkte) */}
                      {Array.from({ length: 5 }).map((_, i) => (
                         <circle
                            key={i}

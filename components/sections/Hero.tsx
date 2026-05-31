@@ -8,7 +8,6 @@ export default function Hero() {
          id="hero"
          className="min-h-screen bg-stone-50 grid lg:grid-cols-2 gap-12 lg:gap-16 items-center px-6 md:px-12 lg:px-20 py-16 lg:py-24"
       >
-         {/* Text – mobile: unten (order-2), Desktop: links (lg:order-1) */}
          <div className="order-2 lg:order-1 animate-in fade-in slide-in-from-bottom-4 duration-700">
             <p className="text-xs uppercase tracking-[0.2em] text-stone-500">
                Geographie-Projekt · Klasse 11
@@ -51,7 +50,6 @@ export default function Hero() {
             </div>
          </div>
 
-         {/* Bild – mobile: oben (order-1), Desktop: rechts (lg:order-2) */}
          <div className="order-1 lg:order-2 relative aspect-[4/5] w-full rounded-2xl overflow-hidden shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-700">
             <Image
                src="/images/kraftwerk.jpg"

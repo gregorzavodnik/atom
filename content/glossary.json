@@ -1,54 +1,9 @@
 {
    "terms": [
       {
-         "term": "Kernspaltung",
-         "definition": "Prozess, bei dem ein schwerer Atomkern (z.B. U-235) durch ein Neutron gespalten wird und dabei zwei leichtere Kerne sowie Energie und weitere Neutronen freisetzt. Grundlage der zivilen und militärischen Nutzung der Kernenergie.",
+         "term": "In-situ-Laugung",
+         "definition": "In-situ-Laugung bedeutet: Man holt einen Rohstoff aus dem Boden, ohne den Boden aufzureißen. Das Erz bleibt, wo es ist – 'in situ' eben –, und wird direkt im Gestein chemisch gelöst. Das funktioniert über Bohrlöcher. Durch sie presst man eine Förderlösung ins Gestein, in der Regel verdünnte Schwefelsäure, bei manchen Lagerstätten auch eine alkalische Lösung. Die Lösung löst das Metall heraus, reichert sich damit an und wird durch andere Bohrlöcher wieder hochgepumpt. Erst oben wird das Metall abgetrennt.",
          "relatedTerms": ["Brennstab", "Moderator"]
-      },
-      {
-         "term": "Anreicherung",
-         "definition": "Technisches Verfahren zur Erhöhung des Anteils des spaltbaren Isotops U-235 im Uran. Natürliches Uran enthält nur ca. 0,7 % U-235; für Reaktorbrennstoff werden 3–5 % benötigt, für Kernwaffen über 90 %.",
-         "relatedTerms": ["Yellowcake", "Brennstab", "Kernspaltung"]
-      },
-      {
-         "term": "Yellowcake",
-         "definition": "Englische Bezeichnung für ein pulverförmiges Urankonzentrat (hauptsächlich U₃O₈), das nach der chemischen Aufbereitung von Uranerz entsteht. Benannt nach seiner gelblichen Farbe. Zwischenprodukt auf dem Weg zu Kernbrennstoff.",
-         "relatedTerms": ["Anreicherung"]
-      },
-      {
-         "term": "Halbwertszeit",
-         "definition": "Zeitraum, in dem die Hälfte der Atome einer radioaktiven Substanz zerfällt. U-238 hat eine Halbwertszeit von ca. 4,5 Milliarden Jahren; kurzlebige Spaltprodukte können Sekunden bis Jahrtausende haben.",
-         "relatedTerms": ["Becquerel", "Endlagerung"]
-      },
-      {
-         "term": "Castor-Behälter",
-         "definition": "Cask for Storage and Transport of Radioactive Material – Spezialbehälter aus Gusseisen für den Transport und die Zwischenlagerung hochradioaktiver abgebrannter Brennstäbe. Wurde in Deutschland zum Symbol der Anti-Atom-Bewegung.",
-         "relatedTerms": ["Endlagerung", "Brennstab"]
-      },
-      {
-         "term": "Endlagerung",
-         "definition": "Dauerhafte, sichere Ablagerung radioaktiver Abfälle in tiefen geologischen Formationen (z.B. Salz- oder Granitgestein) ohne geplante Rückholung. In Deutschland noch kein Endlager in Betrieb; die Standortsuche läuft.",
-         "relatedTerms": ["Castor-Behälter", "Halbwertszeit"]
-      },
-      {
-         "term": "Druckwasserreaktor",
-         "definition": "Häufigster Reaktortyp weltweit: Wasser dient unter hohem Druck (ca. 155 bar) als Kühl- und Moderatormittel. Das Primärwasser kommt nicht direkt mit der Turbine in Kontakt, da ein Dampferzeuger zwischengeschaltet ist.",
-         "relatedTerms": ["Moderator", "Kernspaltung", "Brennstab"]
-      },
-      {
-         "term": "Moderator",
-         "definition": "Material in einem Kernreaktor, das schnelle Neutronen abbremst, damit diese besser weitere Uranatome spalten können. Typische Moderatoren sind Wasser, schweres Wasser (D₂O) oder Graphit.",
-         "relatedTerms": ["Druckwasserreaktor", "Kernspaltung"]
-      },
-      {
-         "term": "Brennstab",
-         "definition": "Zylindrischer Stab aus angereicherten Urandioxid-Pellets (UO₂), der im Reaktorkern die Kernspaltung aufrechthält. Typischerweise 3–4 m lang, gebündelt in Brennelementen. Nach dem Einsatz hochradioaktiv.",
-         "relatedTerms": ["Anreicherung", "Kernspaltung", "Druckwasserreaktor"]
-      },
-      {
-         "term": "Becquerel",
-         "definition": "SI-Einheit der Radioaktivität (Bq): Eine Einheit entspricht einem radioaktiven Zerfall pro Sekunde. Benannt nach dem französischen Physiker Henri Becquerel (1852–1908). Ersetzt die ältere Einheit Curie (1 Ci = 3,7 × 10¹⁰ Bq).",
-         "relatedTerms": ["Halbwertszeit"]
       }
    ]
 }

@@ -1,60 +1,57 @@
+'use client'
+
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
 import GlossaryTerm from '@/components/content/GlossaryTerm'
 import {
-   Table,
-   TableBody,
-   TableCell,
-   TableHead,
-   TableHeader,
-   TableRow,
-} from '@/components/ui/table'
+   Carousel,
+   CarouselContent,
+   CarouselItem,
+   CarouselNext,
+   CarouselPrevious,
+} from '@/components/ui/carousel'
 
-const rows: { type: 'pro' | 'contra'; aspect: string; detail: string }[] = [
+const proArgs: { aspect: string; detail: string; footnoteId?: string }[] = [
    {
-      type: 'pro',
       aspect: 'Klimaschutz',
       detail:
          '[TODO: Geringe CO₂-Emissionen je kWh im Lebenszyklus – vergleichbar mit Windkraft]',
    },
    {
-      type: 'pro',
       aspect: 'Grundlastfähigkeit',
       detail:
          '[TODO: 24/7-Verfügbarkeit unabhängig von Wetter – wichtige Ergänzung zu fluktuierenden Erneuerbaren]',
    },
    {
-      type: 'pro',
       aspect: 'Flächenverbrauch',
       detail:
          '[TODO: Sehr geringer Flächenbedarf pro erzeugter kWh gegenüber Windparks und Freiflächen-PV]',
    },
    {
-      type: 'pro',
       aspect: 'Energiesicherheit',
       detail:
          '[TODO: Reduktion von Gasimportabhängigkeit; Uran aus diversifizierten Quellen (Kasachstan, Kanada, Australien)]',
    },
+]
+
+const contraArgs: { aspect: string; detail: string; footnoteId?: string }[] = [
    {
-      type: 'contra',
       aspect: 'Endlagerung',
       detail:
          '[TODO: Kein Endlager in Betrieb; hochradioaktiver Abfall bleibt 100.000 Jahre gefährlich]',
+      footnoteId: 'Q01',
    },
    {
-      type: 'contra',
       aspect: 'Unfallrisiko',
       detail:
          '[TODO: Katastrophale Auswirkungen bei schweren Störfällen (Tschernobyl 1986, Fukushima 2011)]',
    },
    {
-      type: 'contra',
       aspect: 'Investitionskosten',
       detail:
          '[TODO: Extrem hohe Investitionskosten und häufige Bauzeitverzögerungen – Beispiel Hinkley Point C (UK)]',
    },
    {
-      type: 'contra',
       aspect: 'Proliferation',
       detail:
          '[TODO: Duale Nutzbarkeit von Anreicherungstechnologie; Weiterverbreitung von Kernwaffen]',
@@ -90,39 +87,79 @@ export default function ChancenRisiken() {
             </p>
          </div>
 
-         <div className="mt-10 overflow-x-auto rounded-lg border border-stone-200">
-            <Table>
-               <TableHeader>
-                  <TableRow className="bg-stone-50">
-                     <TableHead className="w-28">Typ</TableHead>
-                     <TableHead className="w-52">Aspekt</TableHead>
-                     <TableHead>Erläuterung (TODO)</TableHead>
-                  </TableRow>
-               </TableHeader>
-               <TableBody>
-                  {rows.map((row, i) => (
-                     <TableRow key={i}>
-                        <TableCell>
-                           <span
-                              className={
-                                 row.type === 'pro'
-                                    ? 'inline-block px-2 py-0.5 text-xs rounded-full bg-emerald-100 text-emerald-700 font-medium'
-                                    : 'inline-block px-2 py-0.5 text-xs rounded-full bg-red-100 text-red-700 font-medium'
-                              }
-                           >
-                              {row.type === 'pro' ? 'Chance' : 'Risiko'}
-                           </span>
-                        </TableCell>
-                        <TableCell className="font-medium text-stone-800">
-                           {row.aspect}
-                        </TableCell>
-                        <TableCell className="text-stone-600 text-sm">
-                           {row.detail}
-                        </TableCell>
-                     </TableRow>
-                  ))}
-               </TableBody>
-            </Table>
+         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-16">
+            {/* Pro-Carousel */}
+            <div>
+               <div className="mb-5 flex items-center justify-center gap-3">
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-emerald-100 text-emerald-700">
+                     Chancen
+                  </span>
+               </div>
+               <div className="px-12">
+                  <Carousel className="w-full">
+                     <CarouselContent>
+                        {proArgs.map((arg, i) => (
+                           <CarouselItem key={i}>
+                              <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-7 h-60 flex flex-col justify-between">
+                                 <div>
+                                    <p className="text-xs font-medium text-emerald-500 uppercase tracking-widest mb-3">
+                                       {i + 1} / {proArgs.length}
+                                    </p>
+                                    <h3 className="font-serif text-2xl text-emerald-900 mb-3">
+                                       {arg.aspect}
+                                    </h3>
+                                    <p className="text-stone-600 text-sm leading-relaxed">
+                                       {arg.detail}
+                                    </p>
+                                 </div>
+                                 {arg.footnoteId && (
+                                    <Footnote sourceId={arg.footnoteId} />
+                                 )}
+                              </div>
+                           </CarouselItem>
+                        ))}
+                     </CarouselContent>
+                     <CarouselPrevious />
+                     <CarouselNext />
+                  </Carousel>
+               </div>
+            </div>
+
+            <div>
+               <div className="mb-5 flex items-center justify-center gap-3">
+                  <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-red-100 text-red-700">
+                     Risiken
+                  </span>
+               </div>
+               <div className="px-12">
+                  <Carousel className="w-full">
+                     <CarouselContent>
+                        {contraArgs.map((arg, i) => (
+                           <CarouselItem key={i}>
+                              <div className="rounded-2xl border border-red-200 bg-red-50 p-7 h-60 flex flex-col justify-between">
+                                 <div>
+                                    <p className="text-xs font-medium text-red-400 uppercase tracking-widest mb-3">
+                                       {i + 1} / {contraArgs.length}
+                                    </p>
+                                    <h3 className="font-serif text-2xl text-red-900 mb-3">
+                                       {arg.aspect}
+                                    </h3>
+                                    <p className="text-stone-600 text-sm leading-relaxed">
+                                       {arg.detail}
+                                    </p>
+                                 </div>
+                                 {arg.footnoteId && (
+                                    <Footnote sourceId={arg.footnoteId} />
+                                 )}
+                              </div>
+                           </CarouselItem>
+                        ))}
+                     </CarouselContent>
+                     <CarouselPrevious />
+                     <CarouselNext />
+                  </Carousel>
+               </div>
+            </div>
          </div>
       </SectionWrapper>
    )

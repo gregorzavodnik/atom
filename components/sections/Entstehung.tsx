@@ -1,7 +1,6 @@
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
 import GlossaryTerm from '@/components/content/GlossaryTerm'
-import Figure from '@/components/content/Figure'
 import ChartPlaceholder from '@/components/content/ChartPlaceholder'
 import Image from 'next/image'
 
@@ -9,7 +8,6 @@ export default function Entstehung() {
    return (
       <SectionWrapper id="entstehung" kicker="Sektion 01 · Geologie">
          <div className="flex flex-col md:flex-row gap-10 items-start">
-            {/* Linke Spalte: Supernova-Bild */}
             <div className="md:w-1/2 flex-shrink-0 md:sticky md:top-20 md:self-start">
                <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
                   <Image
@@ -24,7 +22,6 @@ export default function Entstehung() {
                </p>
             </div>
 
-            {/* Rechte Spalte: Text */}
             <div className="md:w-1/2">
                <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-stone-900">
                   Wie entsteht Uran?

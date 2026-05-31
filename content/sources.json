@@ -35,6 +35,78 @@
          "url": "https://de.nucleopedia.org/wiki/Uranbergbau",
          "accessedAt": "20-05-2026",
          "type": "report"
+      },
+      {
+         "id": "Q05",
+         "author": "Deine Berge",
+         "year": "2026",
+         "title": "Kasachstan",
+         "url": "https://www.deine-berge.de/Staat/Asien/147/Kasachstan",
+         "accessedAt": "25-05-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q06",
+         "author": "StatRanker",
+         "year": "2025",
+         "title": "Top 50 Countries by Uranium Mine Production (2025 Edition)",
+         "url": "https://statranker.org/economy/resources-mining/top-50-countries-by-uranium-mine-production-2025-edition/",
+         "accessedAt": "26-05-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q07",
+         "author": "Farmonaut",
+         "year": "2024",
+         "title": "Top Uranium Mining Countries: Producers & Reserves 2024",
+         "url": "https://farmonaut.com/mining/top-uranium-mining-countries-producers-reserves-2024",
+         "accessedAt": "26-05-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q08",
+         "author": "Deutsche Gesellschaft für Anlagen- und Reaktorsicherheit",
+         "year": "2025",
+         "title": "Kernenergie weltweit 2025",
+         "url": "https://www.grs.de/de/aktuelles/kernenergie-weltweit-2025",
+         "accessedAt": "27-05-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q09",
+         "author": "International Atomic Energy Agency",
+         "year": "2004",
+         "title": "From Obninsk Beyond: Nuclear Power Conference Looks to Future",
+         "url": "https://www.iaea.org/newscenter/news/obninsk-beyond-nuclear-power-conference-looks-future",
+         "accessedAt": "27-05-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q10",
+         "author": "World Nuclear Association",
+         "year": "2026",
+         "title": "Nuclear power technology development",
+         "url": "hhttps://world-nuclear.org/our-association/publications/world-nuclear-outlook-report/chapter-2-nuclear-power-technology-development",
+         "accessedAt": "27-05-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q11",
+         "author": "Federation of American Scientists",
+         "year": "2025",
+         "title": "Federation of American Scientists Researchers Contribute Nuclear Weapons Expertise to International SIPRI Yearbook, Out Today",
+         "url": "https://fas.org/publication/sipri-yearbook-2025/",
+         "accessedAt": "27-05-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q12",
+         "author": "International Atomic Energy Agency",
+         "year": "2026",
+         "title": "Radioisotopes in Medicine",
+         "url": "https://world-nuclear.org/Information-Library/Non-power-nuclear-applications/Radioisotopes-Research/Radioisotopes-in-Medicine",
+         "accessedAt": "27-05-2026",
+         "type": "report"
       }
    ]
 }

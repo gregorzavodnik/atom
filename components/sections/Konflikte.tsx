@@ -1,7 +1,6 @@
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
 import GlossaryTerm from '@/components/content/GlossaryTerm'
-import Figure from '@/components/content/Figure'
 import MapPlaceholder from '@/components/content/MapPlaceholder'
 
 export default function Konflikte() {
@@ -41,13 +40,6 @@ export default function Konflikte() {
                als außenpolitisches Instrument.]
             </p>
          </div>
-
-         <Figure
-            caption="Globale Konfliktherde rund um Uranabbau, Anreicherung und Kernwaffenverbreitung"
-            sourceId="Q02"
-         >
-            <MapPlaceholder title="Globale Uran-Konflikte" />
-         </Figure>
       </SectionWrapper>
    )
 }
