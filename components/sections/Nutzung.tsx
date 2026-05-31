@@ -28,9 +28,6 @@ export default function Nutzung() {
                               className="text-white"
                            />
                         </div>
-                        <p className="text-[9px] font-mono uppercase tracking-[0.2em] text-stone-400 mb-0.5">
-                           Maßstab: Kontinental
-                        </p>
                         <h4 className="font-semibold text-sm text-stone-900 leading-snug mb-1.5">
                            Absolute Lage – Kontinent, Land und Koordinaten
                         </h4>
@@ -40,7 +37,7 @@ export default function Nutzung() {
                            bei 37° nördlicher Breite und 138° östlicher Länge.
                            Standort ist die Westküste der Hauptinsel Honshū in
                            der Präfektur Niigata.
-                           <Footnote sourceId="Q11" />
+                           <Footnote sourceId="Q13" />
                         </p>
                      </div>
 
@@ -52,9 +49,6 @@ export default function Nutzung() {
                               className="text-white"
                            />
                         </div>
-                        <p className="text-[9px] font-mono uppercase tracking-[0.2em] text-stone-400 mb-0.5">
-                           Maßstab: Regional
-                        </p>
                         <h4 className="font-semibold text-sm text-stone-900 leading-snug mb-1.5">
                            Relative Lage – Orientierung zu Nachbarräumen
                         </h4>
@@ -62,13 +56,19 @@ export default function Nutzung() {
                            Die Anlage erstreckt sich über die Gemeinden
                            Kashiwazaki und Kariwa an der dem Japanischen Meer
                            zugewandten Seite Honshūs. Die nächstgelegene größere
-                           Stadt ist die Präfekturhauptstadt Niigata rund 50 km
-                           nordöstlich; die Metropole Tokio liegt jenseits der
-                           zentralen Gebirgszüge etwa 200 km südöstlich. Im
-                           Osten und Südosten erheben sich die Echigo-Berge und
-                           die Japanischen Alpen, im Westen grenzt unmittelbar
-                           das Japanische Meer an.
-                           <Footnote sourceId="Q11" />
+                           Stadt ist Nagaoka rund 20 km östlich; die
+                           Präfekturhauptstadt Niigata, das nächstgelegene
+                           regionale Zentrum, liegt rund 65 km nordöstlich. Die
+                           Metropole Tokio befindet sich jenseits der zentralen
+                           Gebirgszüge rund 220 km süd-südöstlich (Luftlinie).
+                           Nach Osten und Südosten erheben sich die
+                           Echigo-Berge; weiter südlich schließen die zentralen
+                           Gebirgszüge, darunter die Japanischen Alpe, an,
+                           die die Küste Niigatas vom Großraum Tokio trennen. Im
+                           Westen grenzt das Kraftwerksgelände unmittelbar an
+                           das Japanische Meer.
+                           <Footnote sourceId="Q14" />
+                           <Footnote sourceId="Q15" />
                         </p>
                      </div>
 
@@ -80,9 +80,6 @@ export default function Nutzung() {
                               className="text-white"
                            />
                         </div>
-                        <p className="text-[9px] font-mono uppercase tracking-[0.2em] text-stone-400 mb-0.5">
-                           Maßstab: Naturraum
-                        </p>
                         <h4 className="font-semibold text-sm text-stone-900 leading-snug mb-1.5">
                            Naturräumliche Einordnung – Landschaft, Klima,
                            Besiedlung
@@ -96,7 +93,9 @@ export default function Nutzung() {
                            landwirtschaftlich (Reisanbau) genutzt, während die
                            Region zugleich zu den seismisch aktivsten Gebieten
                            der Erde zählt.
-                           <Footnote sourceId="Q11" />
+                           <Footnote sourceId="Q13" />
+                           <Footnote sourceId="Q16" />
+                           <Footnote sourceId="Q17" />
                         </p>
                      </div>
 
@@ -108,11 +107,9 @@ export default function Nutzung() {
                               className="text-white"
                            />
                         </div>
-                        <p className="text-[9px] font-mono uppercase tracking-[0.2em] text-stone-400 mb-0.5">
-                           Maßstab: Funktion
-                        </p>
+
                         <h4 className="font-semibold text-sm text-stone-900 leading-snug mb-1.5">
-                           Funktionale Einordnung – Rolle im europäischen
+                           Funktionale Einordnung – Rolle im japanischen
                            Stromnetz
                         </h4>
                         <p className="text-sm text-stone-600 leading-relaxed">
@@ -122,7 +119,9 @@ export default function Nutzung() {
                            ihrer hohen installierten Leistung ist sie als
                            Grundlastkraftwerk konzipiert und sollte die
                            Versorgung des Großraums Tokio stützen.
-                           <Footnote sourceId="Q11" />
+                           <Footnote sourceId="Q18" />
+                           <Footnote sourceId="Q19" />
+                           <Footnote sourceId="Q20" />
                         </p>
                      </div>
                   </div>
