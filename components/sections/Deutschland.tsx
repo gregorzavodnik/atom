@@ -79,25 +79,25 @@ export default function Deutschland() {
                />
                <TimelineRow
                   index={5}
-                  sourceIds={['Q-TODO-6']}
+                  sourceIds={['Q38', 'Q39', 'Q40']}
                   isFirst={false}
                   isLast={false}
                   dotClass="bg-stone-200 ring-2 ring-stone-300"
                   date="2015-01-01"
                   dateLabel="2015–2022"
                   title="Der schrittweise Ausstieg"
-                  html="<ul><li><span>2015</span><strong>Abschaltung Grafenrheinfeld</strong></li><li><span>2017</span><strong>Abschaltung Gundremmingen B</strong></li><li><span>2019</span><strong>Abschaltung Philippsburg 2</strong></li><li><span>2020</span><strong>Gorleben scheidet im Standortauswahlverfahren als mögliches Endlager aus</strong></li><li><span>31. Dezember 2021</span><strong>Abschaltung Brokdorf, Grohnde, Gundremmingen C</strong></li><li><span>Februar 2022</span><strong>Russischer Angriff auf die Ukraine</strong><span> – Energiekrise stellt Ausstiegstermin infrage</span></li><li><span>Oktober 2022</span><strong>Kanzler Scholz ordnet Streckbetrieb der drei letzten Meiler bis 15. April 2023 an</strong></li><li><span>Datum unbekannt</span><strong>Ereignis</strong></li></ul>"
+                  html="<ul><li><span>2015</span><strong>Abschaltung Grafenrheinfeld</strong></li><li><span>2017</span><strong>Abschaltung Gundremmingen B</strong></li><li><span>2019</span><strong>Abschaltung Philippsburg 2</strong></li><li><span>2020</span><strong>Gorleben scheidet im Standortauswahlverfahren als mögliches Endlager aus</strong></li><li><span>31. Dezember 2021</span><strong>Abschaltung Brokdorf, Grohnde, Gundremmingen C</strong></li><li><span>Februar 2022</span><strong>Russischer Angriff auf die Ukraine</strong><span> – Energiekrise stellt Ausstiegstermin infrage</span></li><li><span>Oktober 2022</span><strong>Kanzler Scholz ordnet Streckbetrieb der drei letzten Meiler bis 15. April 2023 an</strong></li></ul>"
                />
                <TimelineRow
                   index={6}
-                  sourceIds={['Q-TODO-7']}
+               sourceIds={['Q41', 'Q42', 'Q43', 'Q44', 'Q45', 'Q46', 'Q47']}
                   isFirst={false}
                   isLast
                   dotClass="bg-stone-200 ring-2 ring-stone-300"
                   date="2023-04-15"
-                  dateLabel="2023–9999"
+                  dateLabel="2023–2026"
                   title="Endgültiger Ausstieg und Nachspiel"
-                  html='<ul><li><span>15. April 2023</span><strong>Endgültige Abschaltung der letzten drei Kernkraftwerke</strong><span> – Emsland, Isar 2, Neckarwestheim 2</span></li><li><span>2024</span><strong>Wiederkehrende Debatten über eine Neubewertung</strong><span> – laut Umfragen befürwortet eine knappe Mehrheit den Wiedereinstieg</span></li><li><span>Juni 2025</span><strong>Bundeskanzler Friedrich Merz bezeichnet den Kernkraftausstieg als „strategischen Fehler" – hält eine Rückkehr aber für faktisch kaum umsetzbar</strong></li><li><span>Oktober 2025</span><strong>Sprengung der Kühltürme des stillgelegten Kraftwerks Gundremmingen</strong><span> – symbolisches Ende einer Ära</span></li><li><span>März 2026</span><strong>EU-Kommissionspräsidentin von der Leyen kündigt beim Kernenergiegipfel in Paris eine „Renaissance der Kernenergie" an</strong></li><li><span>April 2026</span><strong>Unionsfraktionschef Jens Spahn fordert Debatte über Wiedereinstieg</strong><span> – Studien beziffern Reaktivierung auf rund 9–10 Mrd. Euro</span></li><li><span>Datum unbekannt</span><strong>Ereignis</strong></li></ul>'
+                  html='<ul><li><span>15. April 2023</span><strong>Endgültige Abschaltung der letzten drei Kernkraftwerke</strong><span> – Emsland, Isar 2, Neckarwestheim 2</span></li><li><span>2024</span><strong>Wiederkehrende Debatten über eine Neubewertung</strong><span> – laut Umfragen befürwortet eine knappe Mehrheit den Wiedereinstieg</span></li><li><span>Juni 2025</span><strong>Bundeskanzler Friedrich Merz bezeichnet den Kernkraftausstieg als „strategischen Fehler" – hält eine Rückkehr aber für faktisch kaum umsetzbar</strong></li><li><span>Oktober 2025</span><strong>Sprengung der Kühltürme des stillgelegten Kraftwerks Gundremmingen</strong><span> – symbolisches Ende einer Ära</span></li><li><span>März 2026</span><strong>EU-Kommissionspräsidentin von der Leyen kündigt beim Kernenergiegipfel in Paris eine „Renaissance der Kernenergie" an</strong></li><li><span>April 2026</span><strong>Unionsfraktionschef Jens Spahn fordert Debatte über Wiedereinstieg</strong><span> – Studien beziffern Reaktivierung auf rund 9–10 Mrd. Euro</span></li></ul>'
                />
             </ol>
          </section>

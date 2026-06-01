@@ -341,6 +341,96 @@
          "url": "https://de.wikipedia.org/wiki/Atom-Moratorium",
          "accessedAt": "31-05-2026",
          "type": "report"
+      },
+      {
+         "id": "Q38",
+         "author": "Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit",
+         "year": "2015",
+         "title": "Hendricks: Der Atomausstieg geht voran",
+         "url": "https://www.bundesumweltministerium.de/pressemitteilung/hendricks-der-atomausstieg-geht-voran",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q39",
+         "author": "Bundesamt für die Sicherheit der nuklearen Entsorgung",
+         "year": "2023",
+         "title": "Der Atomausstieg in Deutschland",
+         "url": "https://www.base.bund.de/de/nukleare-sicherheit/atomausstieg/ausstieg-atomkraft/ausstieg-atomkraft_inhalt.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q40",
+         "author": "Bundesamt für die Sicherheit der nuklearen Entsorgung",
+         "year": "2020",
+         "title": "Gorleben – ein historischer Rückblick",
+         "url": "https://www.base.bund.de/de/endlager/bestehende-endlager/gorleben/gorleben.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q41",
+         "author": "Bundesamt für die Sicherheit der nuklearen Entsorgung",
+         "year": "2023",
+         "title": "Abschaltung der Atomkraftwerke Isar 2, Emsland & Neckarwestheim 2",
+         "url": "https://www.base.bund.de/de/nukleare-sicherheit/atomausstieg/abgeschaltete-akw/2022/die-drei-letzten-akw.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q42",
+         "author": "Deutscher Bundestag",
+         "year": "2026",
+         "title": "Forderung nach Wiedereinstieg in die Kernkraft beraten",
+         "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw12-de-kernkraftausstieg-1156112",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q43",
+         "author": "Euronews",
+         "year": "2025",
+         "title": "Germany destroys two nuclear plant cooling towers as part of nuclear phaseout plan",
+         "url": "https://www.euronews.com/2025/10/25/germany-destroys-two-nuclear-plant-cooling-towers-as-part-of-nuclear-phaseout-plan",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q44",
+         "author": "Europäische Kommission",
+         "year": "2026",
+         "title": "Kommissionspräsidentin von der Leyen zu Stromversorgung: Kernenergie und erneuerbare Energien spielen Schlüsselrolle",
+         "url": "https://germany.representation.ec.europa.eu/news/kommissionsprasidentin-von-der-leyen-zu-stromversorgung-kernenergie-und-erneuerbare-energien-spielen-2026-03-10_de",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q45",
+         "author": "ZDF",
+         "year": "2026",
+         "title": "Rückkehr zur Atomkraft? Spahn: 'Debatte müssen wir führen'",
+         "url": "https://www.zdfheute.de/politik/deutschland/spahn-atomkraft-reaktivierung-werke-reaktoren-100.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q46",
+         "author": "Deutscher Bundestag",
+         "year": "2026",
+         "title": "Aussprache zum Kernenergiegipfel in Paris",
+         "url": "https://www.bundestag.de/dokumente/textarchiv/2026/kw12-de-aktuelle-stunde-kernenergiegipfel-1156114",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q47",
+         "author": "ZDF",
+         "year": "2026",
+         "title": "Regierung ohne Plan für Endlager - aber der Druck steigt",
+         "url": "https://www.zdfheute.de/politik/deutschland/atommuell-endlager-suche-deutschland-radioaktiver-abfall-atomkraft-100.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
       }
    ]
 }
