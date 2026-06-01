@@ -2,6 +2,7 @@ import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
 import GlossaryTerm from '@/components/content/GlossaryTerm'
 import { LocateFixed, Compass, Mountain, Layers } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Abbau() {
    return (
@@ -151,6 +152,17 @@ export default function Abbau() {
                   </div>
                </div>
             </div>
+         </div>
+
+         <div className="mt-12 lg:mt-16">
+            <Image
+               src="/images/world-map.png"
+               alt="Weltkarte der weltweiten Uranförderländer"
+               width={2319}
+               height={1279}
+               priority
+               className="w-full h-auto rounded-xl shadow-lg"
+            />
          </div>
       </SectionWrapper>
    )

@@ -180,6 +180,14 @@ export default function Nutzung() {
                </div>
             </div>
          </div>
+
+         <div className="mt-16">
+            <img
+               src="/nuclear-energy-generation.svg"
+               alt="Weltweite Erzeugung elektrischer Energie aus Kernkraft im Zeitverlauf"
+               className="w-full h-auto"
+            />
+         </div>
       </SectionWrapper>
    )
 }

@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import Image from 'next/image'
 import { cn } from '@/lib/utils'
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
@@ -101,6 +102,16 @@ export default function Deutschland() {
                />
             </ol>
          </section>
+
+         <div className="mt-12 lg:mt-16">
+            <Image
+               src="/images/akw-germany.jpg"
+               alt="Kernkraftwerk in Deutschland"
+               width={2000}
+               height={2829}
+               className="w-full h-auto rounded-xl shadow-lg"
+            />
+         </div>
       </SectionWrapper>
    )
 }

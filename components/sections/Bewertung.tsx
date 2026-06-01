@@ -28,7 +28,7 @@ const quadrants: Quadrant[] = [
             IPCC-Angaben auf etwa 4 bis 110 g CO₂-Äquivalent pro Kilowattstunde
             mit einem Median von 12 g, während Kohlekraftwerke im Mittel rund
             820 g verursachen (bpb).
-            <Footnote sourceId="QXX" />
+            <Footnote sourceId="Q48" />
             <br />
             <br />
             Der Wissenschaftliche Dienst des Bundestags nennt für
@@ -39,7 +39,8 @@ const quadrants: Quadrant[] = [
             verursachte 2025 durchschnittlich 344 g CO₂ je Kilowattstunde
             (Umweltbundesamt) – ein Vielfaches. Hinzu kommt die hohe
             Energiedichte mit geringem Flächenbedarf.
-            <Footnote sourceId="QXX" />
+            <Footnote sourceId="Q58" />
+            <Footnote sourceId="Q59" />
             <br />
             <br />
             Einschränkend bleibt: Hochradioaktiver Abfall strahlt sehr lange,
@@ -63,7 +64,9 @@ const quadrants: Quadrant[] = [
             wichtigster Stromlieferant (GRS; Statista/Fraunhofer ISE). Da
             Brennstoffkosten nur einen kleinen Teil der Gesamtkosten ausmachen,
             ist eine hohe Auslastung über lange Laufzeiten vorteilhaft.
-            <Footnote sourceId="QXX" />
+            <Footnote sourceId="Q48" />
+            <Footnote sourceId="Q60" />
+            <Footnote sourceId="Q61" />
             <br />
             <br />
             Klar gegenzuhalten ist – und hier ist die deutsche Quellenlage
@@ -74,7 +77,9 @@ const quadrants: Quadrant[] = [
             Milliarden ans Netz (Heinrich-Böll-Stiftung). Laut Fraunhofer ISE
             liegen die Stromgestehungskosten neuer AKW deutlich über denen
             erneuerbarer Energien (BASE-Faktencheck).
-            <Footnote sourceId="QXX" />
+            <Footnote sourceId="Q62" />
+            <Footnote sourceId="Q63" />
+            <Footnote sourceId="Q64" />
          </>
       ),
    },
@@ -93,7 +98,7 @@ const quadrants: Quadrant[] = [
             selbst unter Berücksichtigung von Tschernobyl und Fukushima zu den
             sichersten und saubersten Energiequellen gehört, die derzeit
             verfügbar sind.
-            <Footnote sourceId="QXX" />
+            <Footnote sourceId="Q65" />
             <br />
             <br />
             Bereits ein älterer Bericht der Internationalen Energieagentur kam
@@ -103,7 +108,7 @@ const quadrants: Quadrant[] = [
             (Tagesspiegel). Die seltenen, medial dominanten Reaktorunfälle
             fallen statistisch also weit weniger ins Gewicht als die laufende
             fossile Belastung.
-            <Footnote sourceId="QXX" />
+            <Footnote sourceId="Q66" />
             <br />
             <br />
             Einschränkend gilt: Schwere Unfälle haben langfristige psychosoziale
@@ -131,7 +136,8 @@ const quadrants: Quadrant[] = [
             Nichtigkeitsklage Österreichs ab und bestätigte, dass diese
             Tätigkeiten unter bestimmten Voraussetzungen wesentlich zum
             Klimaschutz beitragen können (EuG, Pressemitteilung 113/25).
-            <Footnote sourceId="QXX" />
+            <Footnote sourceId="Q67" />
+            <Footnote sourceId="Q68" />
             <br />
             <br />
             International setzen Frankreich, Schweden und Polen auf Aus- bzw.
@@ -140,7 +146,9 @@ const quadrants: Quadrant[] = [
             Atomausstieg (BASE) und hält Kernkraft für nicht nachhaltig;
             Österreich legte im November 2025 Rechtsmittel gegen das EuG-Urteil
             ein.
-            <Footnote sourceId="QXX" />
+            <Footnote sourceId="Q39" />
+            <Footnote sourceId="Q48" />
+            <Footnote sourceId="Q69" />
          </>
       ),
    },

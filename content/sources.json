@@ -521,6 +521,114 @@
          "url": "https://nuclear-free.com/mediaportal/news/weltweite-uranproduktion-2023-gestiegen.html",
          "accessedAt": "01-06-2026",
          "type": "report"
+      },
+      {
+         "id": "Q58",
+         "author": "Deutscher Bundestag",
+         "year": "2019",
+         "title": "CO₂ Emissionen der Kernenergie",
+         "url": "https://www.bundestag.de/resource/blob/710948/ef6b606a0c568516e1a33841453c39a7/WD-8-138-19-pdf-data.pdf",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q59",
+         "author": "Umwelt Bundesamt",
+         "year": "2026",
+         "title": "CO₂-Emissionen pro Kilowattstunde Strom 2025 nur leicht gesunken",
+         "url": "https://www.umweltbundesamt.de/themen/co2-emissionen-pro-kilowattstunde-strom-2025-nur",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q60",
+         "author": "Statista",
+         "year": "2026",
+         "title": "Anteil der Energieträger an der Nettostromerzeugung in Frankreich in den Jahren von 2023 bis 2025",
+         "url": "https://de.statista.com/statistik/daten/studie/182173/umfrage/struktur-der-bruttostromerzeugung-in-frankreich/",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q61",
+         "author": "Gesellschaft für Anlagen- und Reaktorsicherheit (GRS) gGmbH",
+         "year": "2025",
+         "title": "Kernenergie in Frankreich",
+         "url": "https://www.grs.de/de/kernenergie-frankreich",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q62",
+         "author": "Bundesamt für die Sicherheit der nuklearen Entsorgung",
+         "year": "2024",
+         "title": "Faktencheck: Ist Atomstrom günstiger als Strom aus anderen Energiequellen?",
+         "url": "https://www.base.bund.de/shareddocs/faktencheck/base/de/atomstrom-alternative-energiequellen-kosten.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q63",
+         "author": "Heinrich Böll Stiftung",
+         "year": "2025",
+         "title": "Atomstrom ist teuer und keine Lösung",
+         "url": "https://www.boell.de/de/2025/02/17/atomstrom-ist-teuer-und-keine-loesung",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q64",
+         "author": "Deutsches Institut für Wirtschaftsforschung",
+         "year": "2019",
+         "title": "Zu teuer und gefährlich: Atomkraft ist keine Option für eine klimafreundliche Energieversorgung",
+         "url": "https://www.diw.de/de/diw_01.c.670481.de/publikationen/wochenberichte/2019_30_1/zu_teuer_und_gefaehrlich__atomkraft_ist_keine_option_fuer_eine_klimafreundliche_energieversorgung.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q65",
+         "author": "Der Pragmaticus",
+         "year": "2021",
+         "title": "Warum Kernkraft heute so sicher ist",
+         "url": "https://www.derpragmaticus.com/r/kernenergie-sicher",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q66",
+         "author": "Tagesspiegel",
+         "year": "2011",
+         "title": "Stromerzeugung: Opfer der Energie",
+         "url": "https://www.tagesspiegel.de/wissen/opfer-der-energie-6731302.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q67",
+         "author": "Europäische Kommission",
+         "year": "2022",
+         "title": "Kommission legt Vorschlag zu Erdgas- und Kernenergieaktivitäten in der EU-Taxonomie vor",
+         "url": "https://germany.representation.ec.europa.eu/news/kommission-legt-vorschlag-zu-erdgas-und-kernenergieaktivitaten-der-eu-taxonomie-vor-2022-01-03_de",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q68",
+         "author": "Europäisches Parlament",
+         "year": "2022",
+         "title": "Taxonomie: Keine Einwände gegen Einstufung von Gas und Atomkraft als nachhaltig",
+         "url": "https://www.europarl.europa.eu/news/de/press-room/20220701IPR34365/taxonomie-keine-einwande-gegen-einstufung-von-gas-und-atomkraft-als-nachhaltig",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q69",
+         "author": "APA-Comm GmbH",
+         "year": "2025",
+         "title": "Österreich legt Rechtsmittel gegen Taxonomie-Urteil ein",
+         "url": "https://www.ots.at/presseaussendung/OTS_20251120_OTS0136/oesterreich-legt-rechtsmittel-gegen-taxonomie-urteil-ein",
+         "accessedAt": "01-06-2026",
+         "type": "report"
       }
    ]
 }
