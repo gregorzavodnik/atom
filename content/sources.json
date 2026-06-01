@@ -431,6 +431,96 @@
          "url": "https://www.zdfheute.de/politik/deutschland/atommuell-endlager-suche-deutschland-radioaktiver-abfall-atomkraft-100.html",
          "accessedAt": "01-06-2026",
          "type": "report"
+      },
+      {
+         "id": "Q48",
+         "author": "Bundeszentrale für politische Bildung",
+         "year": "2026",
+         "title": "Die Zukunft der Kernenergie",
+         "url": "https://www.bpb.de/themen/wirtschaft/energiepolitik/576816/die-zukunft-der-kernenergie/",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q49",
+         "author": "Quarks",
+         "year": "2020",
+         "title": "Warum es so schwer ist, Strahlenschäden zu ermitteln",
+         "url": "https://www.quarks.de/technik/energie/warum-es-so-schwer-ist-strahlenschaeden-zu-ermitteln/",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q50",
+         "author": "Niedersächsisches Ministerium für Umwelt, Energie und Klimaschutz",
+         "year": "-",
+         "title": "Endlagerung hoch radioaktiven Abfalls",
+         "url": "https://www.umwelt.niedersachsen.de/startseite/themen/atomaufsicht_amp_strahlenschutz/hochradioaktiver_abfall/endlagersuche/endlagerung-hoch-radioaktiven-abfalls-182952.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q51",
+         "author": "Deutsches Institut für Wirtschaftsforschung",
+         "year": "2023",
+         "title": "Ausbau von Kernkraftwerken entbehrt technischer und ökonomischer Grundlagen",
+         "url": "https://www.diw.de/de/diw_01.c.867887.de/publikationen/wochenberichte/2023_10_1/ausbau_von_kernkraftwerken_entbehrt_technischer_und_oekonomischer_grundlagen.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q52",
+         "author": "Bundeszentrale für politische Bildung",
+         "year": "1993",
+         "title": "'Ein Staat im Staate' Der Uranbergbau der Wismut AG in Sachsen und Thüringen",
+         "url": "https://www.bpb.de/shop/zeitschriften/apuz/archiv/536737/ein-staat-im-staate-der-uranbergbau-der-wismut-ag-in-sachsen-und-thueringen/",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q53",
+         "author": "Nuklearforum Schweiz",
+         "year": "2025",
+         "title": "Uranabbau: zweites Schiedsverfahren gegen Niger",
+         "url": "https://www.nuklearforum.ch/de/news/uranabbau-zweites-schiedsverfahren-gegen-niger/",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q54",
+         "author": "energiezukunft",
+         "year": "2026",
+         "title": "Zwischen Wettrüsten und Abhängigkeit",
+         "url": "https://www.energiezukunft.eu/politik/zwischen-wettruesten-und-abhaengigkeit",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q55",
+         "author": "Taz",
+         "year": "2025",
+         "title": "Indigene fürchten Comeback des Uranabbaus US-Präsident Trump will, dass mehr Uran abgebaut wird. Neue Minen werden im Eilverfahren genehmigt. Menschen sorgen sich um die gesundheitlichen Folgen.",
+         "url": "https://taz.de/Atomkraft-in-den-USA/!6107224/",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q56",
+         "author": "Wikipedia",
+         "year": "2026",
+         "title": "Uranabbau in Australien",
+         "url": "https://de.wikipedia.org/wiki/Uranabbau_in_Australien",
+         "accessedAt": "01-06-2026",
+         "type": "report"
+      },
+      {
+         "id": "Q57",
+         "author": "Nuclear-Free World Foundation",
+         "year": "2025",
+         "title": "Weltweite Uranproduktion 2023 gestiegen",
+         "url": "https://nuclear-free.com/mediaportal/news/weltweite-uranproduktion-2023-gestiegen.html",
+         "accessedAt": "01-06-2026",
+         "type": "report"
       }
    ]
 }

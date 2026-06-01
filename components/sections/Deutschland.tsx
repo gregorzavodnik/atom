@@ -90,7 +90,7 @@ export default function Deutschland() {
                />
                <TimelineRow
                   index={6}
-               sourceIds={['Q41', 'Q42', 'Q43', 'Q44', 'Q45', 'Q46', 'Q47']}
+                  sourceIds={['Q41', 'Q42', 'Q43', 'Q44', 'Q45', 'Q46', 'Q47']}
                   isFirst={false}
                   isLast
                   dotClass="bg-stone-200 ring-2 ring-stone-300"

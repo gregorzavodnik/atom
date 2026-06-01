@@ -1,5 +1,6 @@
 'use client'
 
+import { type ReactNode } from 'react'
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
 import GlossaryTerm from '@/components/content/GlossaryTerm'
@@ -11,42 +12,95 @@ import {
    CarouselPrevious,
 } from '@/components/ui/carousel'
 
-const proArgs: { aspect: string; detail: string; footnoteId?: string }[] = [
+const proArgs: { aspect: string; detail: ReactNode; footnoteId?: string }[] = [
    {
       aspect: 'Klimaschutz',
-      detail:
-         'Kernkraftwerke setzen im Betrieb nahezu keine Treibhausgase frei. Über den gesamten Lebenszyklus betrachtet liegen die Emissionen laut IPCC bei etwa 4 bis 110 Gramm CO₂-Äquivalent pro Kilowattstunde, im Median rund 12 Gramm. Kohlekraftwerke verursachen im Mittel etwa 820 Gramm. Bestehende Reaktoren können fossile Kraftwerke kurzfristig ersetzen.',
+      detail: (
+         <>
+            Kernkraftwerke setzen im Betrieb nahezu keine Treibhausgase frei.
+            Über den gesamten Lebenszyklus betrachtet liegen die Emissionen laut
+            IPCC bei etwa 4 bis 110 Gramm CO₂-Äquivalent pro Kilowattstunde, im
+            Median rund 12 Gramm. Kohlekraftwerke verursachen im Mittel etwa 820
+            Gramm. Bestehende Reaktoren können fossile Kraftwerke kurzfristig
+            ersetzen.
+            <Footnote sourceId="Q48" />
+         </>
+      ),
    },
    {
-      aspect: 'Grundlastfähigkeit',
-      detail:
-         'Kernkraftwerke erzeugen kontinuierlich große, planbare Strommengen und sind nicht von Wetter oder Tageszeit abhängig. Sie erreichen hohe Volllaststunden und tragen damit zur Versorgungssicherheit bei. In der Europäischen Union deckt Kernenergie etwa 22 bis 25 Prozent der Stromerzeugung, weltweit rund neun bis zehn Prozent.',
+      aspect: 'Versorgungssicherheit',
+      detail: (
+         <>
+            Kernkraftwerke erzeugen kontinuierlich große, planbare Strommengen
+            und sind nicht von Wetter oder Tageszeit abhängig. Sie erreichen
+            hohe Volllaststunden und tragen damit zur Versorgungssicherheit bei.
+            In der Europäischen Union deckt Kernenergie etwa 22 bis 25 Prozent
+            der Stromerzeugung, weltweit rund neun bis zehn Prozent.
+            <Footnote sourceId="Q48" />
+         </>
+      ),
    },
    {
-      aspect: 'Flächenverbrauch',
-      detail:
-         'Die Energiedichte von Kernbrennstoff ist sehr hoch: In sehr wenig Material wie Uran steckt viel Energie. Kernkraftwerke benötigen daher nur geringe Brennstoffmengen für hohe Stromerträge. Diese effiziente Brennstoffnutzung kann in Ländern mit begrenzten erneuerbaren Potenzialen oder hohem Strombedarf ein Argument für die Kernenergie sein.',
+      aspect: 'Energiedichte',
+      detail: (
+         <>
+            Die Energiedichte von Kernbrennstoff ist sehr hoch: In sehr wenig
+            Material wie Uran steckt viel Energie. Kernkraftwerke benötigen
+            daher nur geringe Brennstoffmengen für hohe Stromerträge. Diese
+            effiziente Brennstoffnutzung kann in Ländern mit begrenzten
+            erneuerbaren Potenzialen oder hohem Strombedarf ein Argument für die
+            Kernenergie sein.
+            <Footnote sourceId="Q48" />
+         </>
+      ),
    },
 ]
 
-const contraArgs: { aspect: string; detail: string; footnoteId?: string }[] = [
-   {
-      aspect: 'Endlagerung',
-      detail:
-         'Schwere Unfälle können große Mengen Radioaktivität freisetzen. Die Katastrophen von Tschernobyl 1986 und Fukushima 2011 erreichten Stufe 7 der internationalen INES-Skala. In Tschernobyl wurden hunderttausende Menschen evakuiert; akute Strahlenschäden führten zu Todesfällen, und Spätfolgen wie erhöhte Schilddrüsenkrebsraten bei Kindern sind dokumentiert.',
-      footnoteId: 'Q01',
-   },
-   {
-      aspect: 'Unfallrisiko',
-      detail:
-         'Beim Betrieb entstehen hochradioaktive Abfälle, die wegen langer Halbwertszeiten über sehr lange Zeiträume sicher eingeschlossen werden müssen. Als risikoärmste Lösung gilt die Lagerung in tiefen geologischen Schichten. In Deutschland existiert noch kein Endlager für hochradioaktive Abfälle; die Standortsuche dauert nach offiziellen Schätzungen noch Jahrzehnte.',
-   },
-   {
-      aspect: 'Investitionskosten',
-      detail:
-         'Der Neubau von Kernkraftwerken ist kapitalintensiv und langwierig. Projekte wie das finnische Olkiluoto 3 oder das britische Hinkley Point C verzögerten sich um viele Jahre, und ihre Kosten überstiegen die Planung deutlich. Lange Bauzeiten und Kostensteigerungen mindern die Wirtschaftlichkeit und verzögern den Klimanutzen.',
-   },
-]
+const contraArgs: { aspect: string; detail: ReactNode; footnoteId?: string }[] =
+   [
+      {
+         aspect: 'Unfallrisiko',
+         detail: (
+            <>
+               Schwere Unfälle können große Mengen Radioaktivität freisetzen.
+               Die Katastrophen von Tschernobyl 1986 und Fukushima 2011
+               erreichten Stufe 7 der internationalen INES-Skala. In Tschernobyl
+               wurden hunderttausende Menschen evakuiert; akute Strahlenschäden
+               führten zu Todesfällen, und Spätfolgen wie erhöhte
+               Schilddrüsenkrebsraten bei Kindern sind dokumentiert.
+               <Footnote sourceId="Q49" />
+            </>
+         ),
+      },
+      {
+         aspect: 'Endlagerung',
+         detail: (
+            <>
+               Beim Betrieb entstehen hochradioaktive Abfälle, die wegen langer
+               Halbwertszeiten über sehr lange Zeiträume sicher eingeschlossen
+               werden müssen. Als risikoärmste Lösung gilt die Lagerung in
+               tiefen geologischen Schichten. In Deutschland existiert noch kein
+               Endlager für hochradioaktive Abfälle; die Standortsuche dauert
+               nach offiziellen Schätzungen noch Jahrzehnte.
+               <Footnote sourceId="Q50" />
+            </>
+         ),
+      },
+      {
+         aspect: 'Wirtschaftlichkeit',
+         detail: (
+            <>
+               Der Neubau von Kernkraftwerken ist kapitalintensiv und
+               langwierig. Projekte wie das finnische Olkiluoto 3 oder das
+               britische Hinkley Point C verzögerten sich um viele Jahre, und
+               ihre Kosten überstiegen die Planung deutlich. Lange Bauzeiten und
+               Kostensteigerungen mindern die Wirtschaftlichkeit und verzögern
+               den Klimanutzen.
+               <Footnote sourceId="Q51" />
+            </>
+         ),
+      },
+   ]
 
 export default function ChancenRisiken() {
    return (
@@ -54,7 +108,6 @@ export default function ChancenRisiken() {
          <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-stone-900">
             Chancen und Risiken
          </h2>
-         
 
          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Pro-Carousel */}

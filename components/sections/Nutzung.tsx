@@ -63,8 +63,8 @@ export default function Nutzung() {
                            Gebirgszüge rund 220 km süd-südöstlich (Luftlinie).
                            Nach Osten und Südosten erheben sich die
                            Echigo-Berge; weiter südlich schließen die zentralen
-                           Gebirgszüge, darunter die Japanischen Alpe, an,
-                           die die Küste Niigatas vom Großraum Tokio trennen. Im
+                           Gebirgszüge, darunter die Japanischen Alpe, an, die
+                           die Küste Niigatas vom Großraum Tokio trennen. Im
                            Westen grenzt das Kraftwerksgelände unmittelbar an
                            das Japanische Meer.
                            <Footnote sourceId="Q14" />
