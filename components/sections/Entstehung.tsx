@@ -13,6 +13,7 @@ export default function Entstehung() {
                      src="/images/supernova.png"
                      alt="Supernova-Explosion: kosmischer Ursprung schwerer Elemente wie Uran"
                      fill
+                     sizes="(max-width: 768px) 100vw, 50vw"
                      className="object-cover"
                   />
                </div>
