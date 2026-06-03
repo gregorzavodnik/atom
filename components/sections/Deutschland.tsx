@@ -6,15 +6,6 @@ import { cn } from '@/lib/utils'
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
 
-// Atomenergie in Deutschland – Chronologie als vertikaler Zeitstrahl.
-// Die 7 Phasen stehen direkt unten im Markup; <TimelineRow> kümmert sich nur
-// um Layout (alternierendes Grid, Punkt + Linie) und den Fade-in beim Scrollen.
-//
-// Quellenbeleg: Jede Phase weist ihre Quellen per <Footnote> am Titel aus. Die
-// sourceIds sind ein String-Array – pro Phase also mehrere Belege möglich. Die
-// Einträge sind aktuell Platzhalter (Q-TODO-N); die echten Quellen in
-// content/sources.json (Q13 ff.) eintragen und die IDs hier ersetzen/ergänzen.
-
 export default function Deutschland() {
    return (
       <SectionWrapper id="deutschland" kicker="Sektion 04 · Deutschland">

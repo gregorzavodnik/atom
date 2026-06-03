@@ -1,6 +1,5 @@
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
-import GlossaryTerm from '@/components/content/GlossaryTerm'
 import ChartPlaceholder from '@/components/content/ChartPlaceholder'
 import Image from 'next/image'
 
@@ -34,7 +33,7 @@ export default function Entstehung() {
                      Urknall, denn damals bildeten sich fast ausschließlich
                      Wasserstoff und Helium. Erst viele Millionen Jahre später
                      entstanden schwerere Elemente im Inneren von Sternen durch
-                     Kernfusion. Für Elemente schwerer als Eisen darunter Uran
+                     Kernfusion. Für Elemente schwerer als Eisen, darunter Uran,
                      reicht die normale Fusion jedoch nicht mehr aus.
                      Stattdessen müssen große Mengen freier Neutronen vorhanden
                      sein, damit Atomkerne schnell Neutronen einfangen können.
@@ -53,9 +52,9 @@ export default function Entstehung() {
                      oder Uran entstehen. Beobachtungen der
                      Neutronenstern-Kollision GW170817 lieferten erstmals
                      direkte Hinweise darauf, dass solche Ereignisse tatsächlich
-                     als „Elementfabriken“ für schwere Atome dienen.
-                     Astronomische Messungen bestätigten dabei die Entstehung
-                     schwerer Elemente durch den r-Prozess.
+                     als „Element-Herstellungs-Fabriken“ für schwere Atome
+                     dienen. Astronomische Messungen bestätigten dabei die
+                     Entstehung schwerer Elemente durch den r-Prozess.
                      <Footnote sourceId="Q03" />
                   </p>
                   <p>
@@ -63,8 +62,8 @@ export default function Entstehung() {
                      Supernova-Explosionen massereicher Sterne gebildet worden
                      sein. Während des Kollapses eines Sterns entstehen extreme
                      Temperaturen und hohe Neutronendichten, die ebenfalls den
-                     r-Prozess ermöglichen können. Wissenschaftlich wird noch
-                     untersucht, welchen Anteil Supernovae und welchen Anteil
+                     r-Prozess ermöglichen können. Es wird noch untersucht,
+                     welchen Anteil Supernovae und welchen Anteil
                      Neutronenstern-Kollisionen an der gesamten Uranmenge im
                      Universum haben. Sicher ist jedoch, dass das Uran auf der
                      Erde aus Materie stammt, die lange vor der Entstehung

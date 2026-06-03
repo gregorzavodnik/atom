@@ -1,6 +1,5 @@
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
-import GlossaryTerm from '@/components/content/GlossaryTerm'
 import ChartPlaceholder from '@/components/content/ChartPlaceholder'
 import { LocateFixed, Compass, Mountain, Zap } from 'lucide-react'
 
@@ -63,7 +62,7 @@ export default function Nutzung() {
                            Gebirgszüge rund 220 km süd-südöstlich (Luftlinie).
                            Nach Osten und Südosten erheben sich die
                            Echigo-Berge; weiter südlich schließen die zentralen
-                           Gebirgszüge, darunter die Japanischen Alpe, an, die
+                           Gebirgszüge, darunter die Japanischen Alpen, an, die
                            die Küste Niigatas vom Großraum Tokio trennen. Im
                            Westen grenzt das Kraftwerksgelände unmittelbar an
                            das Japanische Meer.
@@ -135,7 +134,7 @@ export default function Nutzung() {
 
                <div className="mt-8 space-y-5 text-stone-700 leading-relaxed">
                   <p>
-                     Die zivile Nutzung der Atomenergie begann 1954: Damals
+                     Die zivile Nutzung der Atomenergie begann 1954. Damals
                      wurde im sowjetischen Obninsk das weltweit erste
                      Kernkraftwerk an ein Stromnetz angeschlossen. Ursprünglich
                      war die Technologie militärisch getrieben. Heute sind
@@ -171,10 +170,11 @@ export default function Nutzung() {
                      In der Medizin liefern meist Forschungsreaktoren
                      radioaktive Isotope für Diagnostik und Therapie. Weltweit
                      werden jährlich über 50 Millionen nuklearmedizinische
-                     Eingriffe durchgeführt, rund 90 % davon zur Diagnose.
-                     Technetium-99m kommt dabei in etwa 85 % der Verfahren zum
+                     Eingriffe durchgeführt, rund 90% davon zur Diagnose.
+                     Technetium-99m kommt dabei in etwa 85% der Verfahren zum
                      Einsatz. In der Therapie zerstören strahlende Isotope wie
-                     Iod-131 gezielt krankes Gewebe, etwa bei Schilddrüsenkrebs.
+                     Iod-131 gezielt krankes Gewebe, z. B. bei
+                     Schilddrüsenkrebs.
                      <Footnote sourceId="Q12" />
                   </p>
                </div>

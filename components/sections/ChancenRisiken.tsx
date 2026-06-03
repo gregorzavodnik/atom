@@ -3,7 +3,6 @@
 import { type ReactNode } from 'react'
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
-import GlossaryTerm from '@/components/content/GlossaryTerm'
 import {
    Carousel,
    CarouselContent,
@@ -19,10 +18,9 @@ const proArgs: { aspect: string; detail: ReactNode; footnoteId?: string }[] = [
          <>
             Kernkraftwerke setzen im Betrieb nahezu keine Treibhausgase frei.
             Über den gesamten Lebenszyklus betrachtet liegen die Emissionen laut
-            IPCC bei etwa 4 bis 110 Gramm CO₂-Äquivalent pro Kilowattstunde, im
-            Median rund 12 Gramm. Kohlekraftwerke verursachen im Mittel etwa 820
-            Gramm. Bestehende Reaktoren können fossile Kraftwerke kurzfristig
-            ersetzen.
+            IPCC bei etwa 4 bis 110g CO₂-Äquivalent pro Kilowattstunde, im
+            Median rund 12g. Kohlekraftwerke verursachen im Mittel etwa 820g.
+            Bestehende Reaktoren können fossile Kraftwerke kurzfristig ersetzen.
             <Footnote sourceId="Q48" />
          </>
       ),
@@ -35,7 +33,7 @@ const proArgs: { aspect: string; detail: ReactNode; footnoteId?: string }[] = [
             und sind nicht von Wetter oder Tageszeit abhängig. Sie erreichen
             hohe Volllaststunden und tragen damit zur Versorgungssicherheit bei.
             In der Europäischen Union deckt Kernenergie etwa 22 bis 25 Prozent
-            der Stromerzeugung, weltweit rund neun bis zehn Prozent.
+            der Stromerzeugung, weltweit rund 9 bis 10 Prozent.
             <Footnote sourceId="Q48" />
          </>
       ),

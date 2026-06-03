@@ -42,7 +42,7 @@ export default function Hero() {
                   size="lg"
                   className="bg-teal-800 hover:bg-teal-700 text-white border-transparent"
                >
-                  <Link href="#entstehung">Projekt starten</Link>
+                  <Link href="#entstehung">Projekt ansehen</Link>
                </Button>
                <Button asChild variant="outline" size="lg">
                   <Link href="/quellen">Quellenverzeichnis</Link>

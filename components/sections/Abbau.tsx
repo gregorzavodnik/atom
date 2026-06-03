@@ -1,6 +1,5 @@
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
-import GlossaryTerm from '@/components/content/GlossaryTerm'
 import { LocateFixed, Compass, Mountain, Layers } from 'lucide-react'
 import Image from 'next/image'
 
@@ -17,9 +16,9 @@ export default function Abbau() {
                   <p>
                      Uran wird weltweit nur in wenigen Ländern in nennenswertem
                      Umfang abgebaut, wodurch die Versorgung stark konzentriert
-                     ist. Im Jahr 2024 entfielen rund 74,6 % der weltweiten
+                     ist. Im Jahr 2024 entfielen rund 74,6% der weltweiten
                      Minenförderung auf die drei größten Produzenten, die Top
-                     fünf erreichten etwa 88,9 %. Diese geografische
+                     fünf erreichten etwa 88,9%. Diese geografische
                      Konzentration macht den Weltmarkt anfällig für politische
                      oder betriebliche Störungen in einzelnen Ländern.
                      <Footnote sourceId="Q06" />
@@ -35,10 +34,9 @@ export default function Abbau() {
                   <p>
                      Die Abbaumethoden unterscheiden sich je nach Land und
                      Lagerstätte. Der überwiegende Teil des kasachischen Urans
-                     wird per <GlossaryTerm term="In-situ-Laugung" /> gewonnen,
-                     während Kanada vor allem auf das ergiebige Athabasca-Becken
-                     in Saskatchewan setzt. Namibia fördert über große Tagebaue
-                     wie Rössing und Husab.
+                     wird per In-situ-Laugung gewonnen, während Kanada vor allem
+                     auf das Athabasca-Becken in Saskatchewan setzt. Namibia
+                     fördert über große Tagebaue wie Rössing und Husab.
                      <Footnote sourceId="Q07" />
                   </p>
                </div>
@@ -67,8 +65,7 @@ export default function Abbau() {
                               Kasachstan. In absoluter Lage erstreckt es sich
                               ungefähr zwischen 44° und 47° nördlicher Breite
                               sowie 67° und 70° östlicher Länge und liegt damit
-                              deutlich im gemäßigt-kontinentalen Binnenraum
-                              Eurasiens.
+                              deutlich im gemäßigten Binnenraum Eurasiens.
                               <Footnote sourceId="Q05" />
                            </p>
                         </div>
@@ -143,7 +140,7 @@ export default function Abbau() {
                            <p className="text-sm text-stone-700 leading-relaxed">
                               Topographisch ordnet sich das Becken in die
                               ausgedehnten Tiefländer und Senken Zentralasiens
-                              ein, zwischen der Turanischen Tiefebene im Westen
+                              ein, zwischen der turanischen Tiefebene im Westen
                               und dem Bergland des Tienschan im Südosten.
                               <Footnote sourceId="Q05" />
                            </p>

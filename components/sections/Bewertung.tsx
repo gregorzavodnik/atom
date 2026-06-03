@@ -1,7 +1,6 @@
 import type { CSSProperties, ReactNode } from 'react'
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
-import GlossaryTerm from '@/components/content/GlossaryTerm'
 
 type Quadrant = {
    id: string
@@ -23,28 +22,27 @@ const quadrants: Quadrant[] = [
          <>
             Ökologisch ist Kernkraft eine der treibhausgasärmsten Stromquellen
             über den gesamten Lebenszyklus. Die Bundeszentrale für politische
-            Bildung beziffert die Emissionen – einschließlich Bau, Uranabbau,
-            Brennstoffherstellung, Rückbau und Abfalllagerung – nach
-            IPCC-Angaben auf etwa 4 bis 110 g CO₂-Äquivalent pro Kilowattstunde
-            mit einem Median von 12 g, während Kohlekraftwerke im Mittel rund
-            820 g verursachen (bpb).
+            Bildung beziffert die Emissionen, einschließlich Bau, Uranabbau,
+            Brennstoffherstellung, Rückbau und Abfalllagerung, nach IPCC-Angaben
+            auf etwa 4 bis 110 g CO₂-Äquivalent pro Kilowattstunde mit einem
+            Median von 12g, während Kohlekraftwerke im Mittel rund 820g
+            verursachen.
             <Footnote sourceId="Q48" />
             <br />
             <br />
             Der Wissenschaftliche Dienst des Bundestags nennt für
-            Leichtwasserreaktoren einen mittleren Wert von 14,9 g
-            CO₂-Äquivalente/kWh aus einer Spanne von 5,6 bis 19,7 g und verweist
-            auf den auch vom Paul Scherrer Institut verwendeten IPCC-Wert von 12
-            g (Deutscher Bundestag). Zum Vergleich: Der deutsche Strommix
-            verursachte 2025 durchschnittlich 344 g CO₂ je Kilowattstunde
-            (Umweltbundesamt) – ein Vielfaches. Hinzu kommt die hohe
-            Energiedichte mit geringem Flächenbedarf.
+            Leichtwasserreaktoren einen mittleren Wert von 14,9g
+            CO₂-Äquivalente/kWh aus einer Spanne von 5,6 bis 19,7g und verweist
+            auf den auch vom Paul Scherrer Institut verwendeten IPCC-Wert von
+            12g. Zum Vergleich: Der deutsche Strommix verursachte 2025
+            durchschnittlich 344g CO₂ pro Kilowattstunde; ein Vielfaches. Hinzu
+            kommt die hohe Energiedichte mit geringem Flächenbedarf.
             <Footnote sourceId="Q58" />
             <Footnote sourceId="Q59" />
             <br />
             <br />
-            Einschränkend bleibt: Hochradioaktiver Abfall strahlt sehr lange,
-            und die Endlagerfrage ist in Deutschland weiterhin ungelöst.
+            Es bleibt aber: Hochradioaktiver Abfall strahlt sehr lange, und die
+            Endlagerfrage ist in Deutschland weiterhin ungelöst.
          </>
       ),
    },
@@ -58,25 +56,24 @@ const quadrants: Quadrant[] = [
          <>
             Die belegbare wirtschaftliche Stärke der Kernkraft liegt im
             zuverlässigen Grundlastbetrieb bestehender Anlagen. Frankreich deckt
-            rund zwei Drittel seiner Stromerzeugung mit Kernenergie (bpb; 2024
-            rund 70 %), erzeugte 2024 etwa 570 TWh und war mit rund 105 TWh
+            rund zwei Drittel seiner Stromerzeugung mit Kernenergie (2024 rund
+            70%), erzeugte 2024 etwa 570 TWh und war mit rund 105 TWh
             Nettoexport größter Stromexporteur sowie zugleich Deutschlands
-            wichtigster Stromlieferant (GRS; Statista/Fraunhofer ISE). Da
-            Brennstoffkosten nur einen kleinen Teil der Gesamtkosten ausmachen,
-            ist eine hohe Auslastung über lange Laufzeiten vorteilhaft.
+            wichtigster Stromlieferant. Da Brennstoffkosten nur einen kleinen
+            Teil der Gesamtkosten ausmachen, ist eine hohe Auslastung über lange
+            Laufzeiten vorteilhaft.
             <Footnote sourceId="Q48" />
             <Footnote sourceId="Q60" />
             <Footnote sourceId="Q61" />
             <br />
             <br />
-            Klar gegenzuhalten ist – und hier ist die deutsche Quellenlage
-            eindeutig: Neubauten sind teuer, langwierig und mit hoher
-            Kostenunsicherheit behaftet. Das DIW Berlin bewertet Atomkraft als
-            unwirtschaftlich; der finnische Reaktor Olkiluoto 3 ging nach 17
-            Jahren Bauzeit und einer Kostensteigerung von knapp 4 auf über 12
-            Milliarden ans Netz (Heinrich-Böll-Stiftung). Laut Fraunhofer ISE
-            liegen die Stromgestehungskosten neuer AKW deutlich über denen
-            erneuerbarer Energien (BASE-Faktencheck).
+            Klar gegenzuhalten ist und mit eindeutiger Quellenlage: Neubauten
+            sind teuer, langwierig und mit hoher Kostenunsicherheit verbunden.
+            Das DIW Berlin bewertet Atomkraft als unwirtschaftlich; der
+            finnische Reaktor Olkiluoto 3 ging nach 17 Jahren Bauzeit und einer
+            Kostensteigerung von knapp 4 auf über 12 Milliarden ans Netz. Laut
+            Fraunhofer ISE liegen die Stromgestehungskosten neuer AKW deutlich
+            über denen erneuerbarer Energien (BASE-Faktencheck).
             <Footnote sourceId="Q62" />
             <Footnote sourceId="Q63" />
             <Footnote sourceId="Q64" />
@@ -92,8 +89,8 @@ const quadrants: Quadrant[] = [
       description: (
          <>
             Gemessen an Todesfällen je erzeugter Strommenge zählt Kernenergie zu
-            den sichersten Energieformen. Bezogen auf eine Terawattstunde –
-            Unfälle und Luftverschmutzung eingerechnet – verursacht Braunkohle
+            den sichersten Energieformen. Bezogen auf eine Terawattstunde (
+            Unfälle und Luftverschmutzung eingerechnet) verursacht Braunkohle
             rund 32,7 und Steinkohle rund 24,6 Todesfälle, während Kernkraft
             selbst unter Berücksichtigung von Tschernobyl und Fukushima zu den
             sichersten und saubersten Energiequellen gehört, die derzeit
@@ -104,16 +101,15 @@ const quadrants: Quadrant[] = [
             Bereits ein älterer Bericht der Internationalen Energieagentur kam
             zu dem Ergebnis, dass Kohle, Gas und Wasserkraft bislang mehr
             Todesopfer gefordert haben als die Kernkraft, wobei die Mehrzahl der
-            fossilen Todesfälle auf Feinstaub-Luftverschmutzung zurückgeht
-            (Tagesspiegel). Die seltenen, medial dominanten Reaktorunfälle
-            fallen statistisch also weit weniger ins Gewicht als die laufende
-            fossile Belastung.
+            fossilen Todesfälle auf Feinstaub-Luftverschmutzung zurückgeht. Die
+            seltenen, medial dominanten Reaktorunfälle fallen statistisch also
+            weit weniger ins Gewicht als die laufende fossile Belastung.
             <Footnote sourceId="Q66" />
             <br />
             <br />
-            Einschränkend gilt: Schwere Unfälle haben langfristige psychosoziale
-            Folgen, Umsiedlungen und Vertrauensverluste, auch wenn die
-            statistische Sterblichkeit gering bleibt.
+            Einschränkend gilt allerdings: Schwere Unfälle haben langfristige
+            psychosoziale Folgen, Umsiedlungen und Vertrauensverluste, auch wenn
+            die statistische Sterblichkeit gering bleibt.
          </>
       ),
    },
@@ -130,22 +126,20 @@ const quadrants: Quadrant[] = [
             (Delegierte Verordnung (EU) 2022/1214) stufte die EU-Kommission
             gestützt auf wissenschaftliche Gutachten bestimmte
             Kernenergieaktivitäten unter klaren und strengen Bedingungen als mit
-            der Taxonomie vereinbar ein (EU-Kommission). Das Europäische
-            Parlament lehnte den delegierten Rechtsakt nicht ab (Europäisches
-            Parlament), und am 10. September 2025 wies das Gericht der EU die
-            Nichtigkeitsklage Österreichs ab und bestätigte, dass diese
-            Tätigkeiten unter bestimmten Voraussetzungen wesentlich zum
-            Klimaschutz beitragen können (EuG, Pressemitteilung 113/25).
+            der Taxonomie vereinbar ein. Das Europäische Parlament lehnte den
+            delegierten Rechtsakt nicht ab und am 10. September 2025 wies das
+            Gericht der EU die Nichtigkeitsklage Österreichs ab und bestätigte,
+            dass diese Tätigkeiten unter bestimmten Voraussetzungen wesentlich
+            zum Klimaschutz beitragen können.
             <Footnote sourceId="Q67" />
             <Footnote sourceId="Q68" />
             <br />
             <br />
             International setzen Frankreich, Schweden und Polen auf Aus- bzw.
-            Neubau (bpb). Gegenposition: Deutschland vollzog am 15. April 2023
-            mit Abschaltung von Isar 2, Emsland und Neckarwestheim 2 den
-            Atomausstieg (BASE) und hält Kernkraft für nicht nachhaltig;
-            Österreich legte im November 2025 Rechtsmittel gegen das EuG-Urteil
-            ein.
+            Neubau. Gegenposition: Deutschland vollzog am 15. April 2023 mit
+            Abschaltung von Isar 2, Emsland und Neckarwestheim 2 den
+            Atomausstieg und hält Kernkraft für nicht nachhaltig; Österreich
+            legte im November 2025 Rechtsmittel gegen das EuG-Urteil ein.
             <Footnote sourceId="Q39" />
             <Footnote sourceId="Q48" />
             <Footnote sourceId="Q69" />

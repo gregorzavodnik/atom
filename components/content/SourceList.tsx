@@ -38,9 +38,6 @@ export default function SourceList({ sort = 'id' }: Props) {
                         </>
                      )}
                      Abgerufen am: {source.accessedAt}.
-                     <span className="ml-2 text-xs text-stone-400 font-mono">
-                        [{source.type}]
-                     </span>
                   </div>
                </div>
             </li>

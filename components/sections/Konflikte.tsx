@@ -1,6 +1,5 @@
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
-import GlossaryTerm from '@/components/content/GlossaryTerm'
 import MapPlaceholder from '@/components/content/MapPlaceholder'
 
 export default function Konflikte() {
@@ -54,8 +53,9 @@ export default function Konflikte() {
                   etwa im Kakadu-Nationalpark. Strahlende Abraumhalden,
                   kontaminiertes Wasser und hoher Wasserverbrauch gelten als
                   ungelöste Probleme. Nach jahrelangen Protesten stoppte der
-                  Mirarr-Clan 2002 die Jabiluka-Mine; die Koongarra-Lagerstätte
-                  wurde dem Nationalpark eingegliedert statt abgebaut
+                  Mirarr-Clan 2002 die Jabiluka-Mine; die sog.
+                  "Koongarra"-Lagerstätte wurde dem Nationalpark eingegliedert
+                  statt abgebaut
                   <Footnote sourceId="Q56" />
                </p>
                <p>

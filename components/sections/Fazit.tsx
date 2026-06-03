@@ -1,6 +1,5 @@
 import SectionWrapper from '@/components/layout/SectionWrapper'
 import Footnote from '@/components/content/Footnote'
-import GlossaryTerm from '@/components/content/GlossaryTerm'
 
 export default function Fazit() {
    return (
@@ -15,7 +14,7 @@ export default function Fazit() {
                ihr Ruf in Deutschland nahelegt. Über den Lebenszyklus gehört sie
                zu den treibhausgasärmsten Stromquellen: Die Bundeszentrale für
                politische Bildung nennt nach IPCC-Angaben einen Median von etwa
-               12 g CO₂-Äquivalent pro Kilowattstunde, gegenüber rund 820 g bei
+               12g CO₂-Äquivalent pro Kilowattstunde, gegenüber rund 820g bei
                Kohlekraftwerken. Bei der Sicherheit gilt Ähnliches. Je erzeugter
                Terawattstunde bleibt Kernkraft selbst mit Tschernobyl und
                Fukushima eine der sichersten Energiequellen und liegt damit weit
@@ -57,15 +56,17 @@ export default function Fazit() {
                Polen bauen aus oder neu. Die Gegenseite ist ebenso real:
                Deutschland vollzog am 15. April 2023 den Atomausstieg, die
                Endlagerfrage bleibt offen, und Österreich legte 2025
-               Rechtsmittel gegen das Urteil ein. Die stärksten Argumente
-               liefern Klimabilanz und Sicherheit; die ernsthaftesten Einwände
-               sind die Neubaukosten und das verbleibende Unfall- und
-               Abfallrisiko.
+               Rechtsmittel gegen das Urteil ein.
                <Footnote sourceId="Q39" />
                <Footnote sourceId="Q48" />
                <Footnote sourceId="Q67" />
                <Footnote sourceId="Q68" />
                <Footnote sourceId="Q69" />
+               <br />
+               <br />
+               Die stärksten Argumente liefern Klimabilanz und Sicherheit; die
+               ernsthaftesten Einwände sind die Neubaukosten und das
+               verbleibende Unfall- und Abfallrisiko.
             </p>
          </div>
       </SectionWrapper>

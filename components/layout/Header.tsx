@@ -76,13 +76,6 @@ export default function Header() {
                >
                   Quellen
                </Link>
-               <Link
-                  href="/glossar"
-                  className="hidden md:block text-xs text-stone-600 hover:text-teal-800 transition-colors"
-               >
-                  Glossar
-               </Link>
-
                <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
                   <SheetTrigger asChild>
                      <Button variant="ghost" size="icon" className="lg:hidden">
@@ -117,13 +110,6 @@ export default function Header() {
                               className="px-3 py-2.5 rounded-lg text-sm text-stone-700 hover:bg-stone-100"
                            >
                               Quellenverzeichnis
-                           </Link>
-                           <Link
-                              href="/glossar"
-                              onClick={() => setMobileOpen(false)}
-                              className="px-3 py-2.5 rounded-lg text-sm text-stone-700 hover:bg-stone-100"
-                           >
-                              Glossar
                            </Link>
                            <Link
                               href="/impressum"
