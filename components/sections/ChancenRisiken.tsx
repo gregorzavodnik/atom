@@ -118,7 +118,10 @@ export default function ChancenRisiken() {
                   </span>
                </div>
                <div className="px-8 flex-1 flex flex-col">
-                  <Carousel className="w-full flex-1 flex flex-col">
+                  <Carousel
+                     opts={{ loop: true }}
+                     className="w-full flex-1 flex flex-col"
+                  >
                      <CarouselContent className="flex-1">
                         {proArgs.map((arg, i) => (
                            <CarouselItem key={i} className="flex">
@@ -154,7 +157,10 @@ export default function ChancenRisiken() {
                   </span>
                </div>
                <div className="px-8 flex-1 flex flex-col">
-                  <Carousel className="w-full flex-1 flex flex-col">
+                  <Carousel
+                     opts={{ loop: true }}
+                     className="w-full flex-1 flex flex-col"
+                  >
                      <CarouselContent className="flex-1">
                         {contraArgs.map((arg, i) => (
                            <CarouselItem key={i} className="flex">

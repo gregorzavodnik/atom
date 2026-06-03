@@ -221,15 +221,6 @@ function SustainabilitySquare() {
                </div>
             ))}
          </div>
-
-         <figcaption className="mt-5 text-center text-sm text-stone-500">
-            Viereck der Nachhaltigkeit – Platzhalterbewertung (★ = 1–5 Punkte je
-            Dimension)
-         </figcaption>
-         <p className="mt-1 text-center text-xs text-stone-400">
-            TODO: Endgültige Bewertung und Begründung nach Teamdiskussion
-            eintragen
-         </p>
       </figure>
    )
 }

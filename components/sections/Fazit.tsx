@@ -8,11 +8,6 @@ export default function Fazit() {
          <h2 className="font-serif text-4xl md:text-5xl tracking-tight text-stone-900">
             Fazit und Ausblick
          </h2>
-         <p className="mt-5 text-xl text-stone-600 leading-relaxed max-w-prose">
-            Atomenergie bleibt ein Technologiepfad mit enormem Potenzial und
-            ungelösten Risiken – die Entscheidung liegt bei Gesellschaft und
-            Politik.
-         </p>
 
          <div className="mt-8 space-y-5 text-stone-700 leading-relaxed max-w-prose">
             <p>
