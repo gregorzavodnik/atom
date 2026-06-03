@@ -44,14 +44,17 @@ export default function ImpressumPage() {
                   <h2 className="font-semibold text-stone-900 mb-2">
                      Verantwortlich
                   </h2>
-                  <p className="text-sm text-stone-400 italic mb-1">
-                     [TODO: Namen der Projektgruppe eintragen – Datenschutz
-                     beachten, ggf. nur Vornamen]
+                  <p className="text-sm mb-2">
+                     Gregor Zavodnik
+                     <br />
+                     Michael Braun
+                     <br />
+                     Ben David Aron Platin
                   </p>
                   <p className="text-sm leading-relaxed">
                      Freies Christliches Gymnasium Düsseldorf
                      <br />
-                     [TODO: Schuladresse eintragen]
+                     Buchenstraße 1, 40599 Düsseldorf
                   </p>
                </section>
 

@@ -47,9 +47,6 @@ export default function Footer() {
                   <p className="text-sm text-stone-400">
                      Schuljahr 2025/2026 · Fach Geographie
                   </p>
-                  <p className="text-sm text-stone-400">
-                     Dreierteam · Überthema: Energie
-                  </p>
                </div>
             </div>
             <Separator className="my-8 bg-stone-700" />
