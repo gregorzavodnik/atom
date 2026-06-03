@@ -14,13 +14,9 @@ export default function Hero() {
             </p>
             <div className="mt-3 h-px w-12 bg-stone-300" />
 
-            <h1 className="mt-6 font-serif text-6xl md:text-7xl lg:text-8xl tracking-tight leading-none text-stone-900">
-               Atom&shy;energie
+            <h1 className="mt-6 font-serif text-5xl md:text-6xl lg:text-7xl tracking-tight leading-none text-stone-900">
+               Atomenergie
             </h1>
-
-            <p className="mt-5 text-xl text-stone-600 leading-snug">
-               Zwischen Klimahoffnung und Endlagerfrage
-            </p>
 
             <div className="mt-6 space-y-4 max-w-prose text-stone-700 leading-relaxed">
                <p>
