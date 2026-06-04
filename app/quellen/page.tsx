@@ -26,11 +26,6 @@ export default function QuellenPage() {
             <h1 className="font-serif text-4xl md:text-5xl tracking-tight text-stone-900 mb-4">
                Quellenverzeichnis
             </h1>
-            <p className="text-stone-600 mb-10 max-w-prose leading-relaxed">
-               Alle Quellen in Deutscher Zitierweise mit Fußnoten. Klicke auf
-               eine Quellen-ID im Text, um direkt zum jeweiligen Eintrag zu
-               gelangen.
-            </p>
 
             <Tabs defaultValue="id">
                <TabsList className="mb-8">
